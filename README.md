@@ -1,16 +1,37 @@
-# geo_attendence
+📍 **Geo-Fencing Attendance System**
+A mobile-based **employee attendance app** built using **Flutter** and **PHP** that allows users to **check in/out** only if they are within a 4 km radius of the organization.
 
-A new Flutter project.
+🔧 Features
+- ✅ Location-based check-in and check-out  
+- ⏱ Live working hours timer  
+- 📅 Daily activity (check-in/check-out) display  
+- 📊 Attendance pie chart and leave tracker (in dashboard)  
+- 🗂 PHP & MySQL backend integration  
 
-## Getting Started
+🚀 Setup Guide
+1. **Clone the repo**
+   ```
+   git clone https://github.com/your-username/geo-attendance.git
+   cd geo-attendance
+   ```
 
-This project is a starting point for a Flutter application.
+2. **Backend Setup**
+   - Place PHP files in `htdocs/flutter_api/`
+   - Import database in MySQL
+   - Update API URLs in Flutter code
 
-A few resources to get you started if this is your first Flutter project:
+3. **Run Flutter App**
+   ```
+   flutter pub get
+   flutter run
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+📁 Tech Stack
+- **Frontend:** Flutter  
+- **Backend:** PHP  
+- **Database:** MySQL  
+- **Location:** Geolocator package  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+✨ Developer
+👩‍💻 Mayuri Fulpagare  
+Computer Engineering Student
